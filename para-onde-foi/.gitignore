@@ -1,0 +1,44 @@
+# dependências
+/node_modules
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+lerna-debug.log
+
+# arquivos de build/compilação do NestJS
+/dist
+/out
+
+# arquivos de testes
+/coverage
+
+# arquivos de ambiente (NUNCA suba o .env para o GitHub!)
+.env
+.env.test
+.env.production
+.env.development
+.env.local
+
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# configurações de IDE (VSCode, WebStorm, etc)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
